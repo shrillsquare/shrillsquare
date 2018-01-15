@@ -1,0 +1,7 @@
+.shop-content {font-size:1.375em;}
+#custom .cart_totals th,#custom .cart_totals td {padding:0.5em;}
+.shop-content #post-entry {width:96%;}
+.shop-content h1.page-title,.shop-content h1.product_title {font-size:2em;color:#222;line-height:1.5em;}
+div.widget_shopping_cart_content {padding:3%;width:94%;float:left;}
+.widget_price_filter form {padding:20px;clear:both;}
+.woocommerce-product-search {padding:3%;width:94%;float:left;}

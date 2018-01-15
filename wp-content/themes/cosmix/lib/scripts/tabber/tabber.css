@@ -1,0 +1,70 @@
+#tabber-widget {width: 100%; float: left;margin:0;}
+#tabber-widget aside {
+	border-radius: 0 !important;
+	-webkit-border-radius: 0 !important;
+	background: #f5f5f5;
+	margin: 0px;
+	padding: 2% 0%;
+	float: left;
+	width: 100%;
+	border: 1px solid #CCC;
+}
+#sidebar #tabber-widget {width: 100%; float: left;}
+.tabberlive .tabbertabhide {display: none;}
+.tabber, .tabberlive {margin: 0px; padding: 0px; display: block; width: 100%; float: left;}
+
+#tabber-widget .tabbertab ul li ul li ul li {}
+
+#tabber-widget .tabbertab ul li  {
+	border-bottom:1px solid #ccc !important;
+	
+}
+#tabber-widget .tabbertab ul li,#tabber-widget .tabbertab div.tagcloud,#tabber-widget .tabbertab div.textwidget {
+	
+	width: 94% !important;
+	padding-right: 3% !important;
+	padding-left: 3% !important;
+}
+
+#tabber-widget .tabbertab ul li:last-of-type {
+	border-bottom:0 none !important;
+}
+
+#tabber-widget .tabbertab ul li ul {border: 0 none; padding: 0 !important; width: 100%;}
+#tabber-widget .tabbertab ul li ul li {}
+#container #tabber-widget .widget {}
+
+ul.tabbernav {
+	margin: 0 0 1em;
+	position: relative;
+	width: 100%;
+	padding: 0;
+	float: left;
+}
+
+ul.tabbernav li {list-style: none; display: inline; float: left; text-transform: capitalize;}
+
+ul.tabbernav li a, ul.tabbernav li a:hover {
+	text-decoration: none;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	margin: 0 0.65em 0 0;
+	float: left;
+	letter-spacing: normal;
+	font-size: 1.5em;
+	color: #333;
+    font-weight: bold;
+}
+
+ul.tabbernav li.tabberactive a, ul.tabbernav li.tabberactive a:hover {
+	color: #FFF;
+	background: #d0240e;
+	border: 1px solid #d0240e;
+	border-radius:5px;
+}
+
+.tabberlive .tabbertab {position: relative;}
+.tabberlive .tabbertab h2 {}
+.tabberlive .tabbertab h3 {display: none;}
+.tabberlive#tab1 {}
+.tabberlive#tab2 {}
+.tabberlive#tab2 .tabbertab {overflow: auto;}
